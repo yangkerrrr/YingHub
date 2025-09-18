@@ -1239,7 +1239,7 @@ if (App && new URL(window.location.href).searchParams.get('modless')) Game.modle
 Game.local=(!location.hostname || location.hostname==='localhost' || location.hostname==='127.0.0.1');
 if (App) Game.local=true;
 Game.resPath='';
-if (!App && !Game.local && window.location.href.indexOf('orteil.dashnet.org')!=-1)
+if (!App && !Game.local && window.location.href.indexOf('yangkerrrr.github.io/YingHub/cookieclicker')!=-1)
 {
 	Game.resPath=('//'+location.host+location.pathname).replace('orteil.dashnet.org','cdn.dashnet.org');
 	if (Game.resPath.substr(-1)!='/') Game.resPath+='/';
